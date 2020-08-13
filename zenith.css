@@ -3,29 +3,35 @@
 
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');	
-
 :root {	
     --page-width: 616px;
     --page-order: row-reverse; /* new pages show up to the right */
     /*--page-order: row; /* new pages show up to the left */
     
-    --header-font: "Source Sans Pro", "Inter", sans-serif;	
-    --body-font: "Source Sans Pro", "Inter", sans-serif;	
+    --header-font: "Lato", sans-serif;	
+    --body-font: "Open Sans", sans-serif;
     	
-    --bg-color: #EEEEEE;	
+    --bg-color: #eef3f3;	
     --page-color: rgba(255, 255, 255, 0.95);	
     	
-    --text-color: #000000;	
-    --icon-color: #5c7080;
+    --text-color: #49556f;
+  	--light-text-color: #5c7496;
+    --icon-color: #6a76a1;
     --bullet-color: rgba(0, 0, 0, 0.2);	
     	
-    --page-shadow: 0px 8px 14px rgba(0, 0, 0, 0.05);	
+    --page-shadow: 0px 6px 10px rgba(43, 45, 47, 0.05);
+	--block-shadow: 0px 2px 4px rgba(90, 99, 104, 0.05);
     	
-    --color-primary: 73, 197, 91;	
+    --color-primary: #5c05ae;	
     --color-primary-contrast: #FFFFFF;	
-    --color-secondary: 147, 100, 235;
+    --color-secondary: #8a3cc8;
 
     --color-secondary-contrast: #FFFFFF;	
+}
+
+/* CHANGE COLOURS IN CANVAS */
+canvas[data-id="layer2-node"] {	
+    filter: invert(1) hue-rotate(110deg) saturate(2.5);	
 }
 
 /* CHANGE COLOURS IN CANVAS */
