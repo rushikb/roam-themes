@@ -1,6 +1,9 @@
-:root {
-    --page-width: 616px;
-    --page-order: row-reverse;
+.roam-center {
+    max-width: none;
+    width: 800px;
+}
+.rm-block-text, textarea { 
+   max-width: 800px !important;
 }
 
 html, body, .roam-app {
