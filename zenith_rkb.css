@@ -26,10 +26,7 @@
     --color-secondary-contrast: #FFFFFF;	
 }
 
-/* CHANGE COLOURS IN CANVAS */
-canvas[data-id="layer2-node"] {	
-    filter: invert(1) hue-rotate(110deg) saturate(2.5);	
-}
+
 
 /* ------------ Custom data tags ------------ */
 /* Custom data tags */
